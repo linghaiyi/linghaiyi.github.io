@@ -356,7 +356,6 @@ dp[u][1] = \sum_{(u,v) \in E} dp[v][0];
 
           </div>
           
-    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -571,26 +570,6 @@ dp[u][1] = \sum_{(u,v) \in E} dp[v][0];
 
 
   
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : '9703dde59c5a68476d1a',
-      clientSecret: 'a430a06e7a217fce13eb7b905cce6fa16a7d8a8d',
-      repo        : 'gitalk',
-      owner       : 'linghaiyi',
-      admin       : ['linghaiyi'],
-      id          : 'a03a83fc11bc303b119b47e8b032dff1',
-        language: 'zh-CN',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
-</script>
 
 </body>
 </html>

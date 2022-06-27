@@ -333,7 +333,6 @@ g(i) 表示遍历 i 的子树，且所有人都装好软件所需的最少时间
 
           </div>
           
-    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -548,26 +547,6 @@ g(i) 表示遍历 i 的子树，且所有人都装好软件所需的最少时间
 
 
   
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : '9703dde59c5a68476d1a',
-      clientSecret: 'a430a06e7a217fce13eb7b905cce6fa16a7d8a8d',
-      repo        : 'gitalk',
-      owner       : 'linghaiyi',
-      admin       : ['linghaiyi'],
-      id          : '1dfe5f5d3042258af24a5eabe4e28cdd',
-        language: 'zh-CN',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
-</script>
 
 </body>
 </html>

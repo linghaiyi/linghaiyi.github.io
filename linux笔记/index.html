@@ -345,7 +345,6 @@ r 读文件(夹), w 写文件(夹), x 执行文件/进入文件夹</p>
 
           </div>
           
-    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -560,26 +559,6 @@ r 读文件(夹), w 写文件(夹), x 执行文件/进入文件夹</p>
 
 
   
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : '9703dde59c5a68476d1a',
-      clientSecret: 'a430a06e7a217fce13eb7b905cce6fa16a7d8a8d',
-      repo        : 'gitalk',
-      owner       : 'linghaiyi',
-      admin       : ['linghaiyi'],
-      id          : '0ddcbd7b9ff57ad423ea143fbb6573c6',
-        language: 'zh-CN',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
-</script>
 
 </body>
 </html>
